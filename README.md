@@ -6,13 +6,21 @@
 
 # Project Folders: 
 
-EXPRESS
-       |_ react-express (Front end: lets user select file.)
-       |_ file-upload-api (Backend (API): that the front endcan send a file to.)
+```
+_public
+_server
+|      |_bin
+|      |    |_www
+|      |_public
+|      |       |_files       
+|      |_ app.js
+|_src
+|    |_app.js
+```
 
 ---
 
 ## extra installs(not required by tutorial): 
 
-- `npm install -g nodemon`;
-- 
+- `npm i -g nodemon`;
+- `npm i axios`
