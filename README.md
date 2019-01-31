@@ -4,7 +4,7 @@
 
 ============================================================
 
-# Project Folders: 
+## Project Folders: 
 
 ```
 _public
@@ -24,3 +24,9 @@ _server
 
 - `npm i -g nodemon`;
 - `npm i axios`
+
+## TODO
+
+- [x] launch server and react app with same cmd
+- [x] upload file (**POST** request)
+- [ ] print files' names in a list (**GET** request)

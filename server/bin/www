@@ -5,12 +5,14 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('file-upload-api2:server');
+var debug = require('debug')('file-upload-react:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
+//set the port I want to listen to for the requests. (the same one indicated in the front-end endpoint in App.js)
+process.env.PORT = '8080' 
 
 var port = normalizePort(process.env.PORT || '8000');
 app.set('port', port);
@@ -25,7 +27,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port,  () => console.log(port));
 server.on('error', onError);
 server.on('listening', onListening);
 
