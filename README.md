@@ -2,6 +2,9 @@
 
 [How to set up file upload with React and Node](https://medium.freecodecamp.org/how-to-create-file-upload-with-react-and-node-2aa3f9aab3f0)
 
+To start project: 
+- `npm start`
+
 ============================================================
 
 ## Project Folders: 
@@ -25,8 +28,4 @@ _server
 - `npm i -g nodemon`;
 - `npm i axios`
 
-## TODO
-
-- [x] launch server and react app with same cmd
-- [x] upload file (**POST** request)
-- [ ] print files' names in a list (**GET** request)
+\
